@@ -20,6 +20,7 @@
     "@google/maps": "^0.4.5",
     "bluebird": "^3.5.1",
     "express": "^4.16.3",
+    "lodash": "^4.17.5",
     "ps-grab": "^1.0.1"
   }
 }

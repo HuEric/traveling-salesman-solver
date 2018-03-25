@@ -7,20 +7,16 @@ class Service {
         const routeOptimizer = new Optimizer();
 
         routeOptimizer
-            .prepare(req.body)
+            .prepare(req.body, true)
             .computeItinerary()
             .then((result) => {
                 let schedule = routeOptimizer.generateSchedule(result.json);
                 res.json(schedule);
-                // res.json(result.json);
-                // res.json(routeOptimizer.format(result));
             })
             .catch((error) => {
-                res.status(400).json(error.json);
+                res.status(400).json(error);
             })
         ;
-
-        // res.json({ res: req.body });
     }
 }
 
