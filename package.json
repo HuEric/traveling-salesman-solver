@@ -1,0 +1,23 @@
+{
+  "name": "traveling-salesman-solver",
+  "version": "1.0.0",
+  "description": "Simple API solving Traveling Salesman Problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuEric/traveling-salesman-solver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuEric/traveling-salesman-solver/issues"
+  },
+  "homepage": "https://github.com/HuEric/traveling-salesman-solver#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ps-grab": "^1.0.1"
+  }
+}
